@@ -4,30 +4,30 @@ Este proyecto está estructurado en cuatro capas principales, diseñadas para se
 Estructura del Proyecto
 El proyecto está dividido en las siguientes capas:
 
-#1. Capa API
+# 1. Capa API
 La Capa API contiene los controladores que exponen las funcionalidades del sistema a través de endpoints HTTP. Es la interfaz pública de la aplicación y maneja las solicitudes entrantes.
 
 Ubicación en el repositorio: src/Api
 
-#2. Capa Core
+# 2. Capa Core
 La Capa Core actúa como intermediaria entre la Capa API y la Capa Business. Esta capa maneja la lógica de comunicación y asegura que los datos fluyan correctamente entre las distintas capas.
 
 Ubicación en el repositorio: src/Core
 
-#3. Capa Business
+# 3. Capa Business
 La Capa Business contiene la lógica de negocio de la aplicación. Aquí se definen las reglas y operaciones que transforman los datos y gestionan la funcionalidad principal del sistema.
 
 Ubicación en el repositorio: src/Business
 
-#4. Capa Datos
+# 4. Capa Datos
 La Capa Datos es responsable de la interacción con la base de datos. Aquí se encuentran los modelos de datos y se utilizan herramientas como Mapper y Dapper para la gestión de la persistencia.
 
 Ubicación en el repositorio: src/Data
 
-#Instalación y Configuración
+# Instalación y Configuración
 Para configurar y ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-#Clona el repositorio:
+# Clona el repositorio:
 
 bash
 Copiar código
@@ -61,7 +61,7 @@ cd src/Api
 dotnet run
 La API debería estar disponible en http://localhost:5000.
 
-#Uso
+# Uso
 Para interactuar con la API, puedes usar herramientas como Postman o curl. Consulta la documentación de los endpoints en src/Api para ver las rutas disponibles y cómo usarlas.
 
 Contribución
@@ -78,8 +78,8 @@ Realiza tus modificaciones y asegúrate de que todo esté funcionando correctame
 
 Envía un pull request con una descripción clara de los cambios realizados.
 
-#Licencia
+# Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
 
-#Contacto
+# Contacto
 Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos a través de Jonathanpatinobeltran@gmail.com.
