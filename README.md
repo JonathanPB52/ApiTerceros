@@ -1,4 +1,4 @@
-#Proyecto de Ejemplo
+# Proyecto de Ejemplo
 Este proyecto está estructurado en cuatro capas principales, diseñadas para separar responsabilidades y facilitar el mantenimiento. A continuación, se describe cada capa y cómo interactúan entre sí.
 
 Estructura del Proyecto
